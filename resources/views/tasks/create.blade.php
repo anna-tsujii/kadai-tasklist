@@ -3,6 +3,7 @@
 @section('content')
 
 <h1>新しいタスクを追加する</h1>
+    
 
     {!! Form::model($task, ['route' => 'tasks.store']) !!}
 
