@@ -179,7 +179,6 @@ return [
         
         //追加
         Collective\Html\HtmlServiceProvider::class,
-
     ],
 
     /*
