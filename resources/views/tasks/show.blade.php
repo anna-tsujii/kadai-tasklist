@@ -8,8 +8,6 @@
         <tr>
             <th>id</th>
             <td>{{ $task->user_id }}</td>
-            {{ $task->id }}
-            {{ \Auth::user() }}       
         </tr>
         <tr>
             <th>ステータス</th>
