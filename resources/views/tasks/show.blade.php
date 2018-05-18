@@ -7,7 +7,9 @@
     <table class="table table-bordered">
         <tr>
             <th>id</th>
-            <td>{{ $task->id }}</td>
+            <td>{{ $task->user_id }}</td>
+            {{ $task->id }}
+            {{ \Auth::user() }}       
         </tr>
         <tr>
             <th>ステータス</th>
